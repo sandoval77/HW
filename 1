@@ -1,11 +1,10 @@
-// test1.cpp
 #include <iostream>
-#include <unistd.h> // for sleep()
+#include <unistd.h> // For sleep()
 
 int main() {
     while (true) {
         std::cout << "Running..." << std::endl;
-        sleep(1); // Sleep for 1 second
+        sleep(1); // Sleep for 1 second to make the output more manageable
     }
-    return 0; // This line is never reached
+    return 0;
 }
